@@ -512,7 +512,7 @@ export default function ContactPage() {
             {/* Resume Download */}
             <a
               href="/public/nishant_jaiswal_resume.pdf"
-              download
+              download="Nishant_Jaiswal_Resume.pdf"
               className="block p-6 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="flex items-center justify-between">

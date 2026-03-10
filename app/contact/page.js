@@ -511,10 +511,12 @@ export default function ContactPage() {
 
             {/* Resume Download */}
             <a
-              href="/public/nishant_jaiswal_resume.pdf"
+              href="/nishant_jaiswal_resume.pdf"
               download="Nishant_Jaiswal_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block p-6 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:-translate-y-1"
-            >
+             >
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-xl font-bold text-white mb-1">Download Resume</h3>
